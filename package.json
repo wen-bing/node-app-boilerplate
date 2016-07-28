@@ -1,0 +1,24 @@
+{
+  "name": "node-app-boilerplate",
+  "version": "1.0.0",
+  "description": "node web application boilerplate",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "config": "^1.21.0",
+    "co":"*",
+    "koa": "^1.2.1",
+    "sequelize": "^3.23.6",
+    "koa-body":"*",
+    "koa-router":"*",
+    "koa-static":"*",
+    "koa-session":"*",
+    "koa-csrf": "*",
+    "koa-logger":"*",
+    "koa-pug": "*"
+  }
+}
